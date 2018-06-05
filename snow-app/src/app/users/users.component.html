@@ -1,0 +1,12 @@
+
+<div class="ml-3">
+
+<div class="ui middle aligned animated list">
+  <div *ngFor="let user of users"  [routerLink]="['/users', user.id]" class="item">
+    <img class="ui avatar image" src="/assets/images/avatar/helen.jpg">
+    <div class="content">
+      <div class="header">{{user.name}}</div>
+    </div>
+  </div>
+</div>
+</div>

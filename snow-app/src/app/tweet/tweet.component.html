@@ -1,0 +1,24 @@
+<div class="ui feed">
+  <div class="event">
+    <div class="label">
+      <img src="{{tweet.avatar}}">
+    </div>
+    <div class="content m-3">
+      <div class="date">{{tweet.date}}</div>
+      <div class="summary"><a>@{{tweet.name}}</a> created a post </div>
+      <div class="extra text">{{tweet.body}}</div>
+      <div class="extra images">
+        <a> <img class="ui medium rounded image photo" src="{{tweet.images}}"> </a>
+      </div>
+      <div class=" mt-2 ui labeled button" tabindex="0">
+        <div class="ui button" (click)='likeTweet(tweet)'>
+          <i class="heart icon"></i> Like
+        </div>
+        <a class="ui basic label">
+    {{tweet.likes.length}}
+  </a>
+      </div>
+
+    </div>
+  </div>
+</div>

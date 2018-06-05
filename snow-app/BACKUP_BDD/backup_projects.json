@@ -1,0 +1,238 @@
+/* 1 */
+{
+    "_id" : ObjectId("5b155f93a1281a7ab2465bb2"),
+    "tasks" : [],
+    "title" : "titulossnjjd",
+    "createdAt" : ISODate("2018-06-04T15:49:39.066Z"),
+    "__v" : 0
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("5b155f94a1281a7ab2465bb3"),
+    "tasks" : [],
+    "title" : "titulossnjjd",
+    "createdAt" : ISODate("2018-06-04T15:49:40.105Z"),
+    "__v" : 0
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("5b1560851e1d527d7e04d774"),
+    "tasks" : [],
+    "title" : "titulossnjjd",
+    "createdAt" : ISODate("2018-06-04T15:53:41.297Z"),
+    "__v" : 0
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("5b1560871e1d527d7e04d775"),
+    "tasks" : [],
+    "title" : "titulossnjjd",
+    "createdAt" : ISODate("2018-06-04T15:53:43.159Z"),
+    "__v" : 0
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("5b1560871e1d527d7e04d776"),
+    "tasks" : [],
+    "title" : "titulossnjjd",
+    "createdAt" : ISODate("2018-06-04T15:53:43.858Z"),
+    "__v" : 0
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("5b1560881e1d527d7e04d777"),
+    "tasks" : [],
+    "title" : "titulossnjjd",
+    "createdAt" : ISODate("2018-06-04T15:53:44.565Z"),
+    "__v" : 0
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("5b1560891e1d527d7e04d778"),
+    "tasks" : [],
+    "title" : "titulossnjjd",
+    "createdAt" : ISODate("2018-06-04T15:53:45.272Z"),
+    "__v" : 0
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("5b1560a01e1d527d7e04d779"),
+    "tasks" : [],
+    "title" : "titulossnjjd",
+    "createdAt" : ISODate("2018-06-04T15:54:08.233Z"),
+    "__v" : 0
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("5b157323fa2a8e0708cb70c7"),
+    "tasks" : [],
+    "title" : "titulossnjjdmeu",
+    "user" : ObjectId("5aeb1a610b2a5783db99f1cb"),
+    "createdAt" : ISODate("2018-06-04T17:13:07.964Z"),
+    "__v" : 0
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("5b157533ff7bd907a33e04b1"),
+    "tasks" : [
+        ObjectId("5b157533ff7bd907a33e04b2"),
+        ObjectId("5b157533ff7bd907a33e04b3")
+    ],
+    "title" : "titulossnjjdmeu",
+    "user" : ObjectId("5aeb1a610b2a5783db99f1cb"),
+    "createdAt" : ISODate("2018-06-04T17:21:55.333Z"),
+    "__v" : 1
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("5b15760aff7bd907a33e04b6"),
+    "tasks" : [
+        ObjectId("5b15760aff7bd907a33e04b8"),
+        ObjectId("5b15760aff7bd907a33e04b7")
+    ],
+    "title" : "titulossnjjdmeu",
+    "user" : ObjectId("5aeb1a610b2a5783db99f1cb"),
+    "createdAt" : ISODate("2018-06-04T17:25:30.782Z"),
+    "__v" : 1
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("5b157bbef9c262090420940d"),
+    "tasks" : [
+        ObjectId("5b157bbef9c262090420940e"),
+        ObjectId("5b157bbef9c262090420940f")
+    ],
+    "title" : "titulossnjjdmeu",
+    "user" : ObjectId("5aeb1a610b2a5783db99f1cb"),
+    "createdAt" : ISODate("2018-06-04T17:49:50.384Z"),
+    "__v" : 1
+}
+
+/* 13 */
+{
+    "_id" : ObjectId("5b157c82f9c2620904209412"),
+    "tasks" : [
+        ObjectId("5b157c82f9c2620904209414"),
+        ObjectId("5b157c82f9c2620904209413")
+    ],
+    "title" : "titulossnjjdmeu",
+    "user" : ObjectId("5aeb1a610b2a5783db99f1cb"),
+    "createdAt" : ISODate("2018-06-04T17:53:06.763Z"),
+    "__v" : 1
+}
+
+/* 14 */
+{
+    "_id" : ObjectId("5b157cc9f9c2620904209417"),
+    "tasks" : [
+        ObjectId("5b157cc9f9c2620904209418"),
+        ObjectId("5b157cc9f9c2620904209419")
+    ],
+    "title" : "titulossnjjdmeu",
+    "user" : ObjectId("5aeb1a610b2a5783db99f1cb"),
+    "createdAt" : ISODate("2018-06-04T17:54:17.716Z"),
+    "__v" : 1,
+    "description" : null
+}
+
+/* 15 */
+{
+    "_id" : ObjectId("5b157d33f9c2620904209422"),
+    "tasks" : [
+        ObjectId("5b157d33f9c2620904209423"),
+        ObjectId("5b157d33f9c2620904209424")
+    ],
+    "title" : "titulossnjjdmeu",
+    "user" : ObjectId("5aeb1a610b2a5783db99f1cb"),
+    "createdAt" : ISODate("2018-06-04T17:56:03.760Z"),
+    "__v" : 1
+}
+
+/* 16 */
+{
+    "_id" : ObjectId("5b157e76ad0a350998169d42"),
+    "tasks" : [
+        ObjectId("5b1580bc4e99ca0a0e156918")
+    ],
+    "title" : "titulossnjjdmeu",
+    "user" : ObjectId("5aeb1a610b2a5783db99f1cb"),
+    "createdAt" : ISODate("2018-06-04T18:01:26.185Z"),
+    "__v" : 2,
+    "description" : null
+}
+
+/* 17 */
+{
+    "_id" : ObjectId("5b15a393a7ae1b18a6e1d9bb"),
+    "tasks" : [
+        ObjectId("5b15a393a7ae1b18a6e1d9bc"),
+        ObjectId("5b15a393a7ae1b18a6e1d9bd")
+    ],
+    "title" : "titulossnjkbjkbjjdmeu",
+    "user" : ObjectId("5aeb1a610b2a5783db99f1cb"),
+    "createdAt" : ISODate("2018-06-04T20:39:47.876Z"),
+    "__v" : 1
+}
+
+/* 18 */
+{
+    "_id" : ObjectId("5b15a3a8a7ae1b18a6e1d9c0"),
+    "tasks" : [
+        ObjectId("5b15a3a8a7ae1b18a6e1d9c1"),
+        ObjectId("5b15a3a8a7ae1b18a6e1d9c2")
+    ],
+    "title" : "titulossnjkbjkbjjdmeu",
+    "user" : ObjectId("5aeb1a610b2a5783db99f1cb"),
+    "createdAt" : ISODate("2018-06-04T20:40:08.471Z"),
+    "__v" : 1
+}
+
+/* 19 */
+{
+    "_id" : ObjectId("5b15a3a9a7ae1b18a6e1d9c5"),
+    "tasks" : [
+        ObjectId("5b15a3a9a7ae1b18a6e1d9c6"),
+        ObjectId("5b15a3a9a7ae1b18a6e1d9c7")
+    ],
+    "title" : "titulossnjkbjkbjjdmeu",
+    "user" : ObjectId("5aeb1a610b2a5783db99f1cb"),
+    "createdAt" : ISODate("2018-06-04T20:40:09.481Z"),
+    "__v" : 1
+}
+
+/* 20 */
+{
+    "_id" : ObjectId("5b15a3aaa7ae1b18a6e1d9ca"),
+    "tasks" : [
+        ObjectId("5b15a3aaa7ae1b18a6e1d9cb"),
+        ObjectId("5b15a3aaa7ae1b18a6e1d9cc")
+    ],
+    "title" : "titulossnjkbjkbjjdmeu",
+    "user" : ObjectId("5aeb1a610b2a5783db99f1cb"),
+    "createdAt" : ISODate("2018-06-04T20:40:10.292Z"),
+    "__v" : 1
+}
+
+/* 21 */
+{
+    "_id" : ObjectId("5b15a3aba7ae1b18a6e1d9cf"),
+    "tasks" : [
+        ObjectId("5b15a3aba7ae1b18a6e1d9d0"),
+        ObjectId("5b15a3aba7ae1b18a6e1d9d1")
+    ],
+    "title" : "titulossnjkbjkbjjdmeu",
+    "user" : ObjectId("5aeb1a610b2a5783db99f1cb"),
+    "createdAt" : ISODate("2018-06-04T20:40:11.361Z"),
+    "__v" : 1
+}
