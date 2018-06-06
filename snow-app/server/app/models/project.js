@@ -1,11 +1,11 @@
 const mongoose = require('../../database');
 const bcrypt = require('bcryptjs');
 
-//Schem c'est comme les champs de données de ma base de données
+// Schema is like the data fields of my database
 const ProjectSchema = new mongoose.Schema({
   title: {
     type: String,
-    require: true, //definido como obrigatorio
+    require: true,
   },
   description: {
     type: String,
@@ -21,12 +21,12 @@ const ProjectSchema = new mongoose.Schema({
     ref: 'Task',
   }],
   createdAt: {
-    type: Date, //por defeiuto o momento em que ela for criada
+    type: Date,
     default: Date.now,
   },
 });
 
 
-const Project = mongoose.model('Project', ProjectSchema); //definir o model
+const Project = mongoose.model('Project', ProjectSchema);
 
-module.exports = Project; //export do model
+module.exports = Project; 

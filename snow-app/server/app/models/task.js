@@ -1,11 +1,11 @@
 const mongoose = require('../../database');
 const bcrypt = require('bcryptjs');
 
-//Schem c'est comme les champs de données de ma base de données
+
 const TaskSchema = new mongoose.Schema({
   title: {
     type: String,
-    require: true, //definido como obrigatorio
+    require: true,
   },
   project: {
     type: mongoose.Schema.Types.ObjectId,
@@ -23,12 +23,12 @@ const TaskSchema = new mongoose.Schema({
     default: false,
   },
   createdAt: {
-    type: Date, //por defeiuto o momento em que ela for criada
+    type: Date,
     default: Date.now,
   },
 });
 
 
-const Task = mongoose.model('Task', TaskSchema); //definir o model
+const Task = mongoose.model('Task', TaskSchema);
 
-module.exports = Task; //export do model
+module.exports = Task; 

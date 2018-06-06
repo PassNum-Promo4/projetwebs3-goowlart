@@ -1,6 +1,6 @@
 const express = require('express');
 
-const authMiddleware = require('../middlewares/auth'); //importaçao do meu middlewares
+const authMiddleware = require('../middlewares/auth'); // importing my middlewares
 
 const Project = require('../models/project');
 
@@ -60,7 +60,7 @@ router.post('/', async (req, res) => {
       user: req.userId
     });
 
-    await Promise.all(tasks.map(async task => { //aqui foi feita uma interaçao com await Promise.all para que ele espere a conclsao das açoes antes de salvar
+    await Promise.all(tasks.map(async task => { // here an interaction was made with await Promise.all so that it waits the conclusion of the actions before saving
       const projectTask = new Task({ ...task,
         project: project._id
       });
@@ -94,7 +94,7 @@ router.put('/:projectId', async (req, res) => {
     project.tasks = [];
     await Task.remove({ project: project._id });
 
-    await Promise.all(tasks.map(async task => { //aqui foi feita uma interaçao com await Promise.all para que ele espere a conclsao das açoes antes de salvar
+    await Promise.all(tasks.map(async task => { 
        const projectTask = new Task({ ...task, project: project._id });
 
         await projectTask.save();
